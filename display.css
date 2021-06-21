@@ -1,0 +1,56 @@
+th, td {
+    border-bottom: 1px solid #000;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2}
+
+tr:nth-child(odd) {background-color: #E3E4FA}
+
+
+body {
+    background-image: url("man.jpg");
+    box-sizing: inherit;
+    background-position: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-style: bold;
+}
+
+
+th {
+    background-color: whitesmoke;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-style: bold;
+}
+
+h1 {
+    color: whitesmoke;
+    font-family: Arial;
+	text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: whitesmoke;
+}
+
+li {
+    float: left;
+	text-align: left;
+}
+
+li a{
+    display: inline-block;
+    color: black;
+	font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: white;
+}
